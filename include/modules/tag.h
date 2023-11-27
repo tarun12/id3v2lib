@@ -22,6 +22,7 @@ typedef struct _ID3v2_Tag
 {
     ID3v2_TagHeader* header;
     ID3v2_FrameList* frames;
+    const int framCount;
     int padding_size;
 } ID3v2_Tag;
 
